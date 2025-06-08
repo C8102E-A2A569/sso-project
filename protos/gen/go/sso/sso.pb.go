@@ -4,7 +4,7 @@
 // 	protoc        v6.31.1
 // source: sso/sso.proto
 
-package sso
+package ssov1
 
 import (
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
@@ -332,7 +332,7 @@ const file_sso_sso_proto_rawDesc = "" +
 	"\x04Auth\x129\n" +
 	"\bRegister\x12\x15.auth.RegisterRequest\x1a\x16.auth.RegisterResponse\x120\n" +
 	"\x05Login\x12\x12.auth.LoginRequest\x1a\x13.auth.LoginResponse\x126\n" +
-	"\aIsAdmin\x12\x14.auth.IsAdminRequest\x1a\x15.auth.IsAdminResponseB\x1aZ\x18sso/protos/proto/sso;ssob\x06proto3"
+	"\aIsAdmin\x12\x14.auth.IsAdminRequest\x1a\x15.auth.IsAdminResponseB\x1fZ\x1dssov1/protos/gen/go/sso;ssov1b\x06proto3"
 
 var (
 	file_sso_sso_proto_rawDescOnce sync.Once
